@@ -30,6 +30,17 @@
 .errmsg{
   color: red;
 }
+.header{
+  width: 100%;
+  background-color: blue;
+  color: #fff;
+  padding: 1%;
+}
+a{
+  text-decoration: none !important;
+  color: white !important;
+  padding: 2px;
+}
 app-check{
   height: 20px;
   width: 20px;
