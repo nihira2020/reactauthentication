@@ -1,13 +1,23 @@
 {
   "user": [
     {
-      "id": "admin",
-      "name": "NT User",
-      "password": "adminuser",
+      "id": "adminuser",
+      "name": "Nihira",
+      "password": "admin",
       "email": "nihiratechiees@gmail.com",
-      "phone": "",
+      "phone": "8989898989",
       "country": "usa",
       "address": "",
+      "gender": "female"
+    },
+    {
+      "id": "ntuser",
+      "name": "Fullname",
+      "password": "ntuser",
+      "email": "email@email.com",
+      "phone": "56778889989",
+      "country": "singapore",
+      "address": "address1\naddrees2",
       "gender": "male"
     }
   ]
