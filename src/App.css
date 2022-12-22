@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -26,6 +26,25 @@
 
 .App-link {
   color: #61dafb;
+}
+.errmsg{
+  color: red;
+}
+app-check{
+  height: 20px;
+  width: 20px;
+  margin: 1%;
+}
+.header{
+  width: 100%;
+  background-color: blue;
+  color: #fff;
+  padding: 1%;
+}
+a{
+  text-decoration: none !important;
+  color: white !important;
+  padding: 2px;
 }
 
 @keyframes App-logo-spin {

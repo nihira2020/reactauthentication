@@ -1,0 +1,14 @@
+{
+  "user": [
+    {
+      "id": "admin",
+      "name": "NT User",
+      "password": "adminuser",
+      "email": "nihiratechiees@gmail.com",
+      "phone": "",
+      "country": "usa",
+      "address": "",
+      "gender": "male"
+    }
+  ]
+}
