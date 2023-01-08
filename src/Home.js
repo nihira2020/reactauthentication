@@ -4,10 +4,13 @@ import { Link, useNavigate } from "react-router-dom";
 const Home = () => {
     const usenavigate = useNavigate();
     const [customerlist, listupdate] = useState(null);
+    const[displayusername,displayusernameupdate]=useState('');
     useEffect(() => {
         let username = sessionStorage.getItem('username');
         if (username === '' || username === null) {
             usenavigate('/login');
+        }else{
+            displayusernameupdate(username);
         }
 
         let jwttoken = sessionStorage.getItem('jwttoken');
@@ -29,6 +32,7 @@ const Home = () => {
         <div>
             <div className="header">
                 <Link to={'/'}>Home</Link>
+                <span style={{marginLeft:'80%'}}>Welcome <b>{displayusername}</b></span>
                 <Link style={{ float: 'right' }} to={'/login'}>Logout</Link>
             </div>
             <h1 className="text-center">Welcome to Nihira Techiees</h1>
