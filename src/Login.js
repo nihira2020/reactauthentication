@@ -27,6 +27,7 @@ sessionStorage.clear();
                     if (resp.password === password) {
                         toast.success('Success');
                         sessionStorage.setItem('username',username);
+                        sessionStorage.setItem('userrole',resp.role);
                         usenavigate('/')
                     }else{
                         toast.error('Please Enter valid credentials');
@@ -92,7 +93,7 @@ sessionStorage.clear();
     return (
         <div className="row">
             <div className="offset-lg-3 col-lg-6" style={{ marginTop: '100px' }}>
-                <form onSubmit={ProceedLoginusingAPI} className="container">
+                <form onSubmit={ProceedLogin} className="container">
                     <div className="card">
                         <div className="card-header">
                             <h2>User Login</h2>

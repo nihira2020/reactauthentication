@@ -8,6 +8,7 @@
       "phone": "8989898989",
       "country": "usa",
       "address": "",
+      "role":"admin",
       "gender": "female"
     },
     {
@@ -18,7 +19,64 @@
       "phone": "56778889989",
       "country": "singapore",
       "address": "address1\naddrees2",
+      "role":"user",
       "gender": "male"
+    }
+  ],
+  "roleaccess":[
+    {
+      "role": "admin",
+      "menu": "customer",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true
+    },
+    {
+      "role": "admin",
+      "menu": "supplier",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true
+    },
+    {
+      "role": "user",
+      "menu": "customer",
+      "haveadd": false,
+      "haveedit": false,
+      "havedelete": false
+    },
+    {
+      "role": "user1",
+      "menu": "customer",
+      "haveadd": false,
+      "haveedit": false,
+      "havedelete": false
+    }
+  ],
+  "customer":[
+    {
+      "code":1,
+      "name":"Chris",
+      "email":"chris@in.com"
+    },
+    {
+      "code":2,
+      "name":"Lynn",
+      "email":"lynn@in.com"
+    },
+    {
+      "code":3,
+      "name":"Tim",
+      "email":"tim@in.com"
+    },
+    {
+      "code":4,
+      "name":"Southee",
+      "email":"southee@in.com"
+    },{
+      "code":5,
+      "name":"boult",
+      "email":"bould@in.com"
     }
   ]
 }
